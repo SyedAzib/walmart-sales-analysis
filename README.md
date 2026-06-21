@@ -25,27 +25,20 @@ This project demonstrates a complete data analytics workflow:
 
 ## 📁 Project Structure
 
+```
 walmart_project/
-
-├── project.ipynb              → Python EDA & data cleaning
-
-├── project.sql                → SQL queries
-
-├── walmart_cleaned.csv        → Cleaned dataset
-
+├── project.ipynb              (Python EDA and data cleaning)
+├── project.sql                (SQL queries)
+├── walmart_cleaned.csv        (Cleaned dataset)
 └── walmart_streamlit_app/
+    ├── app.py                 (Home page)
+    └── pages/
+        ├── 1_Overview.py
+        ├── 2_Store_Analysis.py
+        ├── 3_Department_Analysis.py
+        └── 4_Raw_Data.py
+```
 
-├── app.py                 → Home page
-
-└── pages/
-
-├── 1_Overview.py
-
-├── 2_Store_Analysis.py
-
-├── 3_Department_Analysis.py
-
-└── 4_Raw_Data.py
 ---
 
 ## 📈 Key Features
