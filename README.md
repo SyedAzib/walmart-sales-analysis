@@ -53,6 +53,18 @@ walmart_project/
 
 ---
 
+## 📸 Power BI Dashboard Screenshots
+
+**Page 1 — Sales Overview**
+
+![Page 1](screenshot/walmart_pg.1.png)
+
+**Page 2 — Detailed Analysis**
+
+![Page 2](screenshot/walmart_pg.2.png)
+
+---
+
 ## 📈 Key Features
 
 - 💰 **KPI Cards** — Total Sales, Average Sales, Total Stores
