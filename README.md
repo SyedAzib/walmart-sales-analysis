@@ -39,16 +39,23 @@ This project demonstrates a complete data analytics workflow — from raw data t
 
 ```
 walmart_project/
-├── project.ipynb                   # Python EDA and data cleaning
-├── project.sql                     # SQL queries
-├── walmart_cleaned.csv             # Cleaned dataset
+├── Walmart_Dashboard.pbix          (Power BI Dashboard file)
+├── README.md                       (Project documentation)
+├── requirements.txt                (Python dependencies)
+├── project.ipynb                   (Python EDA and data cleaning)
+├── project.sql                     (SQL queries)
+├── walmart.csv                     (Original raw dataset)
+├── walmart_cleaned.csv             (Cleaned dataset)
+├── screenshot/
+│   ├── walmart_pg.1.png            (Power BI Page 1 screenshot)
+│   └── walmart_pg.2.png            (Power BI Page 2 screenshot)
 └── walmart_streamlit_app/
-    ├── app.py                      # Home page
+    ├── app.py                      (Home page)
     └── pages/
-        ├── 1_Overview.py
-        ├── 2_Store_Analysis.py
-        ├── 3_Department_Analysis.py
-        └── 4_Raw_Data.py
+        ├── 1_Overview.py           (KPIs + Charts)
+        ├── 2_Store_Analysis.py     (Top 10 Stores)
+        ├── 3_Department_Analysis.py(Top 10 Departments)
+        └── 4_Raw_Data.py           (Data table + Download)
 ```
 
 ---
